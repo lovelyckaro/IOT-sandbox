@@ -19,7 +19,7 @@ class LightSensor:
     # any voltage over 300 mV is bright
     def bright(self):
         voltage = self.voltage()
-        return voltage > 300
+        return voltage > 500
 
 # Light controlled LED, uses LightSensor to turn LED on or off
 class LightControlledLED:
